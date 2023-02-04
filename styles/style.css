@@ -1,21 +1,26 @@
-:root{
-    --rob:"Roboto";
+:root {
+    --rob: "Roboto";
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style: none;
 }
-button{
+
+button {
     border: none;
 }
-.container{
+
+.container {
     max-width: 1140px;
     width: 100%;
     margin-left: auto;
@@ -26,31 +31,82 @@ button{
 
 /* header Akobir */
 
-.header{
-
-}
+.header {}
 
 /* Farrux */
-.news{
-
-}
+.news {}
 
 /* Muhammadali */
-.product{
-
-}
+.product {}
 
 /* Muhammadamin */
-.nike{
+.nike {}
 
+.air__box{
+    height: 440px;
 }
+.section__air {
+    margin-top: 31px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.air__title {
+    font-family: var(--rob);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 18px;
+    color: #000;
+    margin: 10px 0;
+    padding-left: 15px;
+}
+
+.air__text {
+    font-family: var(--rob);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6A6A6A;
+    width: 300px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+.air__sell {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.air-buy {
+    font-family: var(--rob);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #050505;
+    text-transform: uppercase;
+    background: #DFC900;
+    border-radius: 3px;
+    padding: 11px 90px;
+    transition: 0.3s;
+}
+.air-buy:hover{
+    color: #DFC900;
+    background: #000;
+}
+.air__price{
+    font-family: var(--rob);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000;
+}
+
 
 /* Iskandar */
-.design{
-
-}
+.design {}
 
 /* Abdulhamid */
-.footer{
-
-}
+.footer {}
